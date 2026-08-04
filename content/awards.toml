@@ -1,27 +1,38 @@
 type = "card"
-title = "Awards"
-description = "Honors and awards I have received."
+title = "Honors & Academic Awards"
+description = "Scholarships, competition awards, and university honors."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "Second-Class Scholarship"
+subtitle = "Northwestern Polytechnical University"
 date = "2025"
-content = "Description of the award."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "First-Class Scholarship"
+subtitle = "Northwestern Polytechnical University"
 date = "2024"
-content = "Description of the award."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "Silver Award"
+subtitle = "Ascend AI Innovation Contest, Shaanxi Division"
+date = "2024"
+
+[[items]]
+title = "Second Prize"
+subtitle = "17th National University Computer Games Tournament"
 date = "2023"
-content = "Description of the award."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "Second-Class Scholarship for Outstanding Students"
+subtitle = "Northeastern University"
+date = "2023"
+
+[[items]]
+title = "Outstanding Student Leader"
+subtitle = "Northeastern University"
 date = "2022"
-content = "Description of the award."
+
+[[items]]
+title = "Outstanding Participant"
+subtitle = "Smart Healthcare Social Practice Program, Northeastern University"
+date = "2022"

@@ -112,16 +112,25 @@ export default function Profile({ author, social, features, researchInterests }:
             className="sticky top-8"
         >
             {/* Profile Image */}
-            <div className="w-64 h-64 mx-auto mb-6 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105">
-                <Image
-                    src={author.avatar}
-                    alt={author.name}
-                    width={256}
-                    height={256}
-                    className="w-full h-full object-cover object-[32%_center]"
-                    priority
-                />
-            </div>
+            {author.avatar ? (
+                <div className="w-64 h-64 mx-auto mb-6 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105">
+                    <Image
+                        src={author.avatar}
+                        alt={author.name}
+                        width={256}
+                        height={256}
+                        className="w-full h-full object-cover"
+                        priority
+                    />
+                </div>
+            ) : (
+                <div
+                    className="w-64 h-64 mx-auto mb-6 rounded-2xl bg-neutral-100 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 shadow-lg flex items-center justify-center"
+                    aria-label={author.name}
+                >
+                    <span className="text-7xl font-serif font-bold text-accent">JC</span>
+                </div>
+            )}
 
             {/* Name and Title */}
             <div className="text-center mb-6">

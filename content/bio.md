@@ -1,5 +1,5 @@
-I am a PhD student at the School of Science, University of Example, advised by [Prof. Advisor One](https://example.com) and [Dr. Advisor Two](https://example.com).
+I am an M.Eng. student in Computer Science and Technology at Northwestern Polytechnical University. My research focuses on multimodal large language models (MLLMs), robust visual understanding, long-context multimodal reasoning, and agentic reasoning.
 
-Prior to this, I obtained a BSc degree with First Class Honours in Natural Science from the University of Example.
+My work follows two complementary directions. In **robust visual understanding**, I study degradation-aware reasoning and visual self-recovery for reliable multimodal understanding under corrupted inputs, including [Robust-R1](https://arxiv.org/abs/2512.17532) and [Robust-U1](https://arxiv.org/abs/2606.08063). In **long-context multimodal reasoning**, I develop process-level rewards and inference-time control methods that help models sustain task-relevant visual evidence, including [Remember-R1](https://arxiv.org/abs/2608.01314).
 
-My current research focuses on investigating the mathematical principles of natural philosophy.
+I am also a research intern at SmartMore, where I work on multimodal agents, effective visual observation utilization, state updating, and reliable multi-step decision-making in interactive environments.

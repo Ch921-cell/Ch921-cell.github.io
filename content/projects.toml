@@ -1,0 +1,16 @@
+type = "card"
+title = "Projects"
+description = "Agentic research and forecasting systems."
+
+[[items]]
+title = "WowCai: 2026 FIFA World Cup and Gaokao Admission Forecasting"
+subtitle = "Advisor: Dr. Xiaogang Xu"
+date = "2026 - Present"
+content = "Built an agentic deep-research workflow that retrieves and synthesizes multi-source evidence, structures schedules and historical records, and runs Monte Carlo score and tournament simulations to forecast all 104 World Cup matches. Applied the same evidence-grounded workflow to 2026 Gaokao cutoffs using 2021-2025 score and rank histories, province- and subject-specific interval estimation, and backtesting against released cutoffs."
+tags = ["Deep Research", "Multi-Agent Systems", "Monte Carlo Simulation", "Forecasting"]
+
+[[items]]
+title = "OpenPredictor: Agentic Multi-Target Forecasting and Report Generation"
+date = "2026 - Present"
+content = "Built a resumable workflow with one coordinator and five agents for research, forecasting, verification, and report generation. Defined 17 forecasting profiles, including football outcomes, Gaokao cutoffs, and time-series and event prediction, using statistical, simulation-based, and causal methods."
+tags = ["Multi-Agent Systems", "Forecasting", "Report Generation", "Verification"]
