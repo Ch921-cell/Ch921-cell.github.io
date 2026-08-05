@@ -56,9 +56,3 @@ title = "Awards"
 type = "page"
 target = "awards"
 href = "/awards"
-
-[[navigation]]
-title = "Service"
-type = "page"
-target = "services"
-href = "/services"

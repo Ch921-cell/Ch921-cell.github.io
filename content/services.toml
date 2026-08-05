@@ -1,9 +1,0 @@
-type = "card"
-title = "Leadership & Service"
-description = "Student leadership and academic community service."
-
-[[items]]
-title = "President, Student Association for Science and Technology"
-subtitle = "College of Computer Science and Engineering, Northeastern University"
-date = "2022 - 2023"
-content = "Led annual academic and technical events; co-organized two ICPC competitions and the Liaoning Division of the TI Cup Electronic Design Contest."
